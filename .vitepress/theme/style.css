@@ -1,0 +1,348 @@
+/* ============================================
+   Whiteout Survival Guide — Visual Theme
+   Frozen wasteland aesthetic: ice, snow, fire
+   ============================================ */
+
+/* ---- CSS Variables ---- */
+:root {
+  --vp-c-brand: #00b4d8;
+  --vp-c-brand-light: #48cae4;
+  --vp-c-brand-dark: #0077b6;
+  --vp-c-brand-darker: #023e8a;
+
+  /* Tier colors */
+  --tier-s-plus: #ff6b35;
+  --tier-s: #ef476f;
+  --tier-a: #ffd166;
+  --tier-b: #06d6a0;
+  --tier-c: #118ab2;
+
+  /* Functional colors */
+  --tip: #06d6a0;
+  --warn: #ffd166;
+  --danger: #ef476f;
+  --ice: #caf0f8;
+  --snow: #f8f9fa;
+  --deep-ice: #0077b6;
+}
+
+/* ---- Hero Section Override ---- */
+.VPHero {
+  background: linear-gradient(135deg, #023e8a 0%, #0077b6 30%, #00b4d8 60%, #caf0f8 100%) !important;
+}
+.VPHero .name {
+  background: linear-gradient(135deg, #ffffff 0%, #caf0f8 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+}
+.VPHero .text {
+  color: rgba(255,255,255,0.9) !important;
+}
+.VPHero .tagline {
+  color: rgba(255,255,255,0.75) !important;
+}
+
+/* ---- Feature Cards ---- */
+.VPFeature {
+  border: 1px solid rgba(0,180,216,0.15) !important;
+  border-radius: 12px !important;
+  transition: all 0.3s ease !important;
+  background: linear-gradient(180deg, rgba(202,240,248,0.1) 0%, rgba(255,255,255,0.05) 100%) !important;
+}
+.VPFeature:hover {
+  border-color: var(--vp-c-brand) !important;
+  box-shadow: 0 8px 32px rgba(0,180,216,0.15) !important;
+  transform: translateY(-2px) !important;
+}
+
+/* ============================================
+   TIER BADGES
+   ============================================ */
+.tier-badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 6px;
+  font-weight: 800;
+  font-size: 0.85em;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+.tier-s-plus {
+  background: linear-gradient(135deg, #ff6b35, #ff8c42);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(255,107,53,0.4);
+}
+.tier-s {
+  background: linear-gradient(135deg, #ef476f, #f06292);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(239,71,111,0.4);
+}
+.tier-a {
+  background: linear-gradient(135deg, #ffd166, #ffe599);
+  color: #5a4a00;
+  box-shadow: 0 2px 8px rgba(255,209,102,0.4);
+}
+.tier-b {
+  background: linear-gradient(135deg, #06d6a0, #48e5c2);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(6,214,160,0.4);
+}
+.tier-c {
+  background: linear-gradient(135deg, #118ab2, #48cae4);
+  color: #fff;
+  box-shadow: 0 2px 8px rgba(17,138,178,0.4);
+}
+
+/* ============================================
+   HERO CARDS
+   ============================================ */
+.hero-card {
+  border: 1px solid rgba(0,180,216,0.2);
+  border-radius: 12px;
+  padding: 20px;
+  margin: 16px 0;
+  background: linear-gradient(135deg, rgba(202,240,248,0.08), rgba(255,255,255,0.02));
+  position: relative;
+  overflow: hidden;
+}
+.hero-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 4px;
+  height: 100%;
+}
+.hero-card.s-plus::before { background: var(--tier-s-plus); }
+.hero-card.s::before { background: var(--tier-s); }
+.hero-card.a::before { background: var(--tier-a); }
+.hero-card.b::before { background: var(--tier-b); }
+
+.hero-card .hero-name {
+  font-size: 1.3em;
+  font-weight: 700;
+  margin-bottom: 4px;
+}
+.hero-card .hero-meta {
+  font-size: 0.85em;
+  color: #666;
+  margin-bottom: 12px;
+}
+
+/* ============================================
+   CALLOUT BOXES
+   ============================================ */
+.callout {
+  border-radius: 10px;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border-left: 5px solid;
+  font-size: 0.95em;
+}
+.callout.tip {
+  background: rgba(6,214,160,0.08);
+  border-color: var(--tip);
+}
+.callout.warning {
+  background: rgba(255,209,102,0.1);
+  border-color: var(--warn);
+}
+.callout.danger {
+  background: rgba(239,71,111,0.08);
+  border-color: var(--danger);
+}
+.callout.info {
+  background: rgba(0,180,216,0.08);
+  border-color: var(--vp-c-brand);
+}
+.callout-title {
+  font-weight: 700;
+  font-size: 1em;
+  margin-bottom: 6px;
+}
+
+/* ============================================
+   STAT DISPLAY
+   ============================================ */
+.stat-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+  gap: 12px;
+  margin: 20px 0;
+}
+.stat-card {
+  background: linear-gradient(135deg, rgba(0,180,216,0.08), rgba(202,240,248,0.05));
+  border: 1px solid rgba(0,180,216,0.15);
+  border-radius: 10px;
+  padding: 16px;
+  text-align: center;
+}
+.stat-card .stat-value {
+  font-size: 2em;
+  font-weight: 800;
+  color: var(--deep-ice);
+  display: block;
+}
+.stat-card .stat-label {
+  font-size: 0.8em;
+  color: #666;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+/* ============================================
+   COMPARISON TABLE ENHANCEMENT
+   ============================================ */
+.vp-doc table {
+  border-radius: 10px;
+  overflow: hidden;
+  box-shadow: 0 2px 12px rgba(0,0,0,0.06);
+}
+.vp-doc thead {
+  background: linear-gradient(135deg, var(--deep-ice), var(--vp-c-brand));
+}
+.vp-doc thead th {
+  color: #fff !important;
+  font-weight: 700;
+}
+.vp-doc tbody tr:nth-child(even) {
+  background: rgba(202,240,248,0.15);
+}
+.vp-doc tbody tr:hover {
+  background: rgba(0,180,216,0.08);
+}
+
+/* ============================================
+   QUICK REFERENCE CARD
+   ============================================ */
+.quick-card {
+  border: 2px solid var(--vp-c-brand);
+  border-radius: 12px;
+  padding: 20px 24px;
+  margin: 24px 0;
+  background: linear-gradient(135deg, rgba(0,180,216,0.05), rgba(202,240,248,0.1));
+  font-family: 'Courier New', monospace;
+}
+.quick-card pre {
+  background: transparent !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* ============================================
+   STEP-BY-STEP NUMBER
+   ============================================ */
+.step {
+  display: flex;
+  align-items: flex-start;
+  gap: 16px;
+  margin: 16px 0;
+}
+.step-num {
+  flex-shrink: 0;
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--vp-c-brand), var(--vp-c-brand-dark));
+  color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 800;
+  font-size: 1.1em;
+}
+
+/* ============================================
+   PROGRESS / PHASE BADGE
+   ============================================ */
+.phase-badge {
+  display: inline-block;
+  padding: 6px 16px;
+  border-radius: 20px;
+  font-weight: 700;
+  font-size: 0.85em;
+}
+.phase-early {
+  background: rgba(6,214,160,0.15);
+  color: #048a64;
+  border: 1px solid rgba(6,214,160,0.3);
+}
+.phase-mid {
+  background: rgba(255,209,102,0.15);
+  color: #8a6d00;
+  border: 1px solid rgba(255,209,102,0.3);
+}
+.phase-late {
+  background: rgba(239,71,111,0.1);
+  color: #b02a4a;
+  border: 1px solid rgba(239,71,111,0.3);
+}
+
+/* ============================================
+   RESPONSIVE IMAGE PLACEHOLDER
+   ============================================ */
+.img-placeholder {
+  background: linear-gradient(135deg, #023e8a, #0077b6, #00b4d8);
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgba(255,255,255,0.6);
+  font-size: 0.9em;
+  min-height: 200px;
+  margin: 20px 0;
+}
+
+/* ============================================
+   MEMBERSHIP TIER CARDS
+   ============================================ */
+.membership-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 16px;
+  margin: 24px 0;
+}
+.membership-card {
+  border-radius: 14px;
+  padding: 24px;
+  text-align: center;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+}
+.membership-card:hover {
+  transform: translateY(-4px);
+}
+.membership-card.free { border-color: #ccc; background: rgba(248,249,250,0.5); }
+.membership-card.silver { border-color: #c0c0c0; background: linear-gradient(180deg, rgba(192,192,192,0.1), rgba(255,255,255,0.05)); }
+.membership-card.gold { border-color: #ffd700; background: linear-gradient(180deg, rgba(255,215,0,0.1), rgba(255,255,255,0.05)); }
+.membership-card.whale { border-color: #ff6b35; background: linear-gradient(180deg, rgba(255,107,53,0.1), rgba(255,255,255,0.05)); }
+
+.membership-card .price {
+  font-size: 2em;
+  font-weight: 800;
+  margin: 12px 0;
+}
+.membership-card .tier-name {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+/* ============================================
+   DARK MODE OVERRIDES
+   ============================================ */
+html.dark .hero-card {
+  background: linear-gradient(135deg, rgba(0,180,216,0.08), rgba(2,62,138,0.05));
+  border-color: rgba(0,180,216,0.3);
+}
+html.dark .callout.tip { background: rgba(6,214,160,0.12); }
+html.dark .callout.warning { background: rgba(255,209,102,0.12); }
+html.dark .callout.danger { background: rgba(239,71,111,0.12); }
+html.dark .callout.info { background: rgba(0,180,216,0.12); }
+html.dark .stat-card {
+  background: linear-gradient(135deg, rgba(0,180,216,0.12), rgba(202,240,248,0.05));
+  border-color: rgba(0,180,216,0.3);
+}
+html.dark .stat-card .stat-value { color: var(--vp-c-brand-light); }

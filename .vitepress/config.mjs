@@ -1,0 +1,118 @@
+import { defineConfig } from 'vitepress'
+
+export default defineConfig({
+  title: 'Whiteout Survival Guide',
+  description: 'The #1 English guide for Whiteout Survival — Hero Tier Lists, Builds, Bear Hunt Strategy, Alliance Wars & more.',
+  lang: 'en-US',
+  ignoreDeadLinks: true,
+
+  sitemap: {
+    hostname: 'https://whiteout-survival-guide.pages.dev'
+  },
+
+  head: [
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // Open Graph
+    ['meta', { property: 'og:type', content: 'website' }],
+    ['meta', { property: 'og:title', content: 'Whiteout Survival Guide — #1 English Wiki & Tier List' }],
+    ['meta', { property: 'og:description', content: 'Complete hero tier lists, Bear Hunt guides, F2P tips, and alliance war strategy. Updated for every new hero generation.' }],
+    ['meta', { property: 'og:image', content: 'https://whiteout-survival-guide.pages.dev/og-image.png' }],
+    ['meta', { property: 'og:site_name', content: 'Whiteout Survival Guide' }],
+    // Twitter Card
+    ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
+    ['meta', { name: 'twitter:title', content: 'Whiteout Survival Guide — #1 English Wiki & Tier List' }],
+    ['meta', { name: 'twitter:description', content: 'Complete hero tier lists, Bear Hunt guides, F2P tips, and alliance war strategy.' }],
+    // SEO
+    ['meta', { name: 'robots', content: 'index, follow' }],
+    ['link', { rel: 'canonical', href: 'https://whiteout-survival-guide.pages.dev' }]
+  ],
+
+  themeConfig: {
+    nav: [
+      { text: 'Home', link: '/' },
+      { text: 'Heroes', link: '/guides/heroes/' },
+      { text: 'Combat', link: '/guides/combat/' },
+      { text: 'Alliance', link: '/guides/alliance/' },
+      { text: 'Events', link: '/guides/events/' },
+      { text: 'Beginners', link: '/guides/beginners/' }
+    ],
+
+    sidebar: {
+      '/guides/heroes/': [
+        {
+          text: '👤 Heroes Guide',
+          items: [
+            { text: 'Hero Tier List (All Gens)', link: '/guides/heroes/' },
+            { text: 'Gen 10 Heroes (Latest)', link: '/guides/heroes/gen-10' },
+            { text: 'Gen 9 Heroes', link: '/guides/heroes/gen-9' },
+            { text: 'Best F2P Heroes', link: '/guides/heroes/f2p-tier-list' },
+            { text: 'Hero Investment Calculator', link: '/guides/heroes/calculator' },
+          ]
+        }
+      ],
+      '/guides/combat/': [
+        {
+          text: '⚔️ Combat & Builds',
+          items: [
+            { text: 'Combat Mechanics', link: '/guides/combat/' },
+            { text: 'Gear & Equipment Guide', link: '/guides/combat/gear' },
+            { text: 'Gems & Charms', link: '/guides/combat/gems' },
+            { text: 'Formation Guide', link: '/guides/combat/formations' },
+          ]
+        }
+      ],
+      '/guides/alliance/': [
+        {
+          text: '🏰 Alliance Guide',
+          items: [
+            { text: 'Alliance Overview', link: '/guides/alliance/' },
+            { text: 'Bear Hunt (Complete)', link: '/guides/alliance/bear-hunt' },
+            { text: 'Crazy Joe', link: '/guides/alliance/crazy-joe' },
+            { text: 'Sunfire Castle', link: '/guides/alliance/sunfire-castle' },
+            { text: 'Alliance Leadership', link: '/guides/alliance/leadership' },
+          ]
+        }
+      ],
+      '/guides/events/': [
+        {
+          text: '📅 Events',
+          items: [
+            { text: 'Event Calendar', link: '/guides/events/' },
+            { text: 'Arms Race Guide', link: '/guides/events/arms-race' },
+            { text: 'King of Icefield', link: '/guides/events/king-of-icefield' },
+            { text: 'Season Events', link: '/guides/events/season' },
+          ]
+        }
+      ],
+      '/guides/beginners/': [
+        {
+          text: '🌟 Beginner Guide',
+          items: [
+            { text: 'Complete Beginner Guide', link: '/guides/beginners/' },
+            { text: 'HQ Rush (1-30 Fast Path)', link: '/guides/beginners/hq-rush' },
+            { text: 'Gem Spending Guide', link: '/guides/beginners/gem-spending' },
+            { text: 'Common Mistakes', link: '/guides/beginners/mistakes' },
+          ]
+        }
+      ]
+    },
+
+    socialLinks: [
+      { icon: 'github', link: 'https://github.com' }
+    ],
+
+    footer: {
+      message: 'Unofficial fan guide. Not affiliated with Century Games.',
+      copyright: 'Copyright © 2026 Whiteout Survival Guide'
+    },
+
+    search: {
+      provider: 'local'
+    },
+
+    lastUpdated: true,
+    editLink: {
+      pattern: 'https://github.com/xiaoxin0103/whiteout-survival-guide/edit/main/:path'
+    }
+  }
+})

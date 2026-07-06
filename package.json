@@ -1,0 +1,13 @@
+{
+  "name": "whiteout-survival-guide",
+  "version": "1.0.0",
+  "description": "The #1 English guide for Whiteout Survival — Hero Tier Lists, Builds, Bear Hunt & more.",
+  "scripts": {
+    "dev": "vitepress dev",
+    "build": "vitepress build",
+    "preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "vitepress": "^1.6.4"
+  }
+}
