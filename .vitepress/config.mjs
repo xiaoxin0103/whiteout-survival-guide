@@ -98,11 +98,11 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com' }
+      { icon: 'github', link: 'https://github.com/xiaoxin0103/whiteout-survival-guide' }
     ],
 
     footer: {
-      message: 'Unofficial fan guide. Not affiliated with Century Games.',
+      message: 'Fan-made guide. Not affiliated with or endorsed by Century Games. <a href="/privacy-policy">Privacy Policy</a> · <a href="/ai-disclosure">AI Disclosure</a>',
       copyright: 'Copyright © 2026 Whiteout Survival Guide'
     },
 

@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: /node_modules/
+Disallow: /.vitepress/
+
+Sitemap: https://whiteout-survival-guide.pages.dev/sitemap.xml

@@ -19,81 +19,162 @@ hero:
 features:
   - icon: 👤
     title: Hero Tier Lists
-    details: All generations ranked S+ to C. F2P vs P2W breakdowns. Updated every 80 days when new heroes drop. Never waste gems on a bad hero again.
+    details: All generations ranked S+ to C. F2P vs P2W breakdowns. Updated every 80 days when new heroes drop.
     link: /guides/heroes/
   - icon: 🐻
     title: Bear Hunt Strategy
-    details: Maximize your damage with optimal hero comps, troop ratios, and timing. From beginner traps to 1/1/8 meta ratios for Gen 7+.
+    details: Max your damage with optimal hero comps, troop ratios, and timing. 1/1/8 meta explained.
     link: /guides/alliance/bear-hunt
   - icon: 💎
     title: Gem Spending Guide
-    details: Where to spend (and NOT spend) your gems. Lucky Wheel strategy, VIP priority, and F2P gem planning to 160k+ savings.
+    details: Where to spend (and NOT spend) your gems. Lucky Wheel strategy, VIP priority, F2P planning.
     link: /guides/beginners/gem-spending
   - icon: 🏰
-    title: Alliance War Tactics
-    details: Sunfire Castle, Crazy Joe, and seasonal war guides. Plus leadership tools for R4/R5 — troop assignment sheets, activity tracking.
+    title: Alliance War
+    details: Sunfire Castle, Crazy Joe, seasonal wars. Leadership tools for R4/R5 commanders.
     link: /guides/alliance/
   - icon: 📊
-    title: Hero Investment Calculator
-    details: The only tool that tells you if a new hero is worth YOUR gems. Input your roster, get personalized upgrade priority. Free + Pro versions.
+    title: Hero Calculator
+    details: The only tool that tells you if a new hero is worth YOUR gems. Free + Pro versions.
     link: /guides/heroes/calculator
   - icon: 🚀
     title: HQ Rush (1-30)
-    details: Fastest path from HQ 1 to 30. What to build, what to skip, and when to push each level. Save weeks of wasted construction time.
+    details: Fastest path from HQ 1 to 30. What to build, what to skip. Save weeks of wasted time.
     link: /guides/beginners/hq-rush
 ---
 
-## Why This Guide Exists
+<div class="hero-banner">
+<div class="hero-banner-content">
 
-<div class="stat-grid">
-<div class="stat-card">
-<span class="stat-value">50M+</span>
-<span class="stat-label">Players Worldwide</span>
-</div>
-<div class="stat-card">
-<span class="stat-value">$13.3B</span>
-<span class="stat-label">2025 Revenue</span>
-</div>
-<div class="stat-card">
-<span class="stat-value">#2</span>
-<span class="stat-label">Global Mobile Game</span>
-</div>
-<div class="stat-card">
-<span class="stat-value">0</span>
-<span class="stat-label">Complete English Guides</span>
-</div>
-</div>
+## 🔥 50 Million Players. Zero Complete Guides. <span style="color:var(--tier-s-plus)">Until Now.</span>
 
-Whiteout Survival has **50+ million players** and **$13 billion in revenue**, yet there's no single comprehensive English guide site. Hero stats are scattered across Reddit threads and YouTube comments. Alliance leaders run wars from memory. New players quit because they waste gems on wrong heroes.
+Whiteout Survival is the **#2 highest-grossing mobile game in the world** ($13.3B in 2025), yet English-speaking players have nowhere to go for reliable, up-to-date strategy. Reddit threads get buried. YouTube videos go outdated. Alliance leaders run wars from memory.
 
-**This guide fixes that.**
+**We're fixing that.**
 
-- ✅ Every hero, every generation — ranked and explained
-- ✅ Every event — what to do, what to save, what to skip
-- ✅ Every mechanic — gems, gear, charms, formations, troop ratios
-- ✅ Updated the DAY new content drops
+</div>
+<div class="hero-banner-stats">
+<div class="hero-stat">
+<span class="hero-stat-num">50M+</span>
+<span class="hero-stat-label">Players</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">$13.3B</span>
+<span class="hero-stat-label">2025 Revenue</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">Gen 10</span>
+<span class="hero-stat-label">Current Meta</span>
+</div>
+<div class="hero-stat">
+<span class="hero-stat-num">24h</span>
+<span class="hero-stat-label">Update Speed</span>
+</div>
+</div>
+</div>
 
 ---
 
-## Start Here (Based on Your Level)
+## 🎯 Where Should You Start?
 
-| You Are... | Start With |
-|------------|-----------|
-| 🆕 **New (HQ 1-15)** | [Complete Beginner Guide →](/guides/beginners/) |
-| 📈 **Mid-game (HQ 16-25)** | [Hero Tier List →](/guides/heroes/) + [Gem Spending →](/guides/beginners/gem-spending) |
-| 🏆 **Late-game (HQ 26-30)** | [Bear Hunt Meta →](/guides/alliance/bear-hunt) + [Gear Optimization →](/guides/combat/gear) |
-| 👑 **Alliance Leader (R4/R5)** | [Alliance Leadership →](/guides/alliance/leadership) |
+<div class="start-grid">
+<a href="/guides/beginners/" class="start-card new-player">
+<span class="start-icon">🆕</span>
+<span class="start-title">I'm New</span>
+<span class="start-desc">HQ 1-15 · Beginner Guide</span>
+<span class="start-arrow">→</span>
+</a>
+<a href="/guides/heroes/" class="start-card mid-player">
+<span class="start-icon">📈</span>
+<span class="start-title">Mid-Game</span>
+<span class="start-desc">HQ 16-25 · Hero Tier List</span>
+<span class="start-arrow">→</span>
+</a>
+<a href="/guides/alliance/bear-hunt" class="start-card late-player">
+<span class="start-icon">🏆</span>
+<span class="start-title">Late-Game</span>
+<span class="start-desc">HQ 26-30 · Bear Hunt Meta</span>
+<span class="start-arrow">→</span>
+</a>
+<a href="/guides/alliance/leadership" class="start-card leader">
+<span class="start-icon">👑</span>
+<span class="start-title">Alliance Leader</span>
+<span class="start-desc">R4/R5 · Leadership Tools</span>
+<span class="start-arrow">→</span>
+</a>
+</div>
 
 ---
 
-## Latest Updates
+## 📋 What's Inside
 
-| Date | Update |
-|------|--------|
-| July 2026 | **Gen 10 Heroes** — Blanchette, Gregory, Freya analysis added |
-| June 2026 | **Bear Hunt Meta** updated for 1/1/8 troop ratio |
-| May 2026 | **Hero Calculator v1.0** launched — personalized gem efficiency scores |
+<div class="content-grid">
+<div class="content-card">
+<div class="content-card-icon">👤</div>
+<div class="content-card-body">
+
+### [Hero Tier List →](/guides/heroes/)
+
+Every hero from Gen 1 to Gen 10, ranked and explained. <span class="tier-badge tier-s-plus">S+</span> <span class="tier-badge tier-s">S</span> <span class="tier-badge tier-a">A</span> <span class="tier-badge tier-b">B</span> <span class="tier-badge tier-c">C</span>
+
+- F2P priority path — which Lucky Wheel heroes to target
+- P2W analysis — is Jeronimo worth the money?
+- Updated within 24h of each new generation
+
+</div>
+</div>
+<div class="content-card">
+<div class="content-card-icon">🐻</div>
+<div class="content-card-body">
+
+### [Bear Hunt Complete Guide →](/guides/alliance/bear-hunt)
+
+The most important PvE mode in the game.
+
+- 1/1/8 troop ratio — why 80% marksmen is mandatory
+- Hero comps by generation (Gen 1 → Gen 10)
+- Damage formula breakdown + cheat sheet
+
+</div>
+</div>
+<div class="content-card">
+<div class="content-card-icon">💎</div>
+<div class="content-card-body">
+
+### [Gem Spending Guide →](/guides/beginners/gem-spending)
+
+Where every gem should go — and the traps to avoid.
+
+- Lucky Wheel: why you need 160k gems saved
+- VIP 6 rush: the best gem investment in the game
+- What NEVER to spend gems on
+
+</div>
+</div>
+<div class="content-card">
+<div class="content-card-icon">📊</div>
+<div class="content-card-body">
+
+### [Hero Investment Calculator →](/guides/heroes/calculator)
+
+Stop guessing which hero to upgrade.
+
+- Personalized Gem Efficiency Score (GES)
+- F2P / Low Spender / Whale modes
+- Pro version: input your roster, get custom priority list
+
+</div>
+</div>
+</div>
 
 ---
 
-> **Never miss an update.** Bookmark this page. New hero generations drop every ~80 days — we update within 24 hours.
+<div class="update-bar">
+
+### 🆕 Latest: Gen 10 Heroes — Blanchette, Gregory, Freya | &nbsp; [See All Updates →](/guides/heroes/gen-10)
+
+</div>
+
+---
+
+> **Never miss a meta shift.** Bookmark this page. New hero generations drop every ~80 days — we update within 24 hours.
