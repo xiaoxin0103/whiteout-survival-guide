@@ -35,7 +35,8 @@ export default defineConfig({
       { text: 'Alliance', link: '/guides/alliance/' },
       { text: 'Events', link: '/guides/events/' },
       { text: 'Beginners', link: '/guides/beginners/' },
-      { text: 'Updates', link: '/guides/updates/' }
+      { text: 'Updates', link: '/guides/updates/' },
+      { text: 'FAQ', link: '/guides/faq/' }
     ],
 
     sidebar: {
@@ -48,6 +49,12 @@ export default defineConfig({
             { text: 'Gen 9 Heroes', link: '/guides/heroes/gen-9' },
             { text: 'Best F2P Heroes', link: '/guides/heroes/f2p-tier-list' },
             { text: 'Hero Investment Calculator', link: '/guides/heroes/calculator' },
+            { text: '---' },
+            { text: 'Jeronimo Build', link: '/guides/heroes/builds/jeronimo' },
+            { text: 'Blanchette Build', link: '/guides/heroes/builds/blanchette' },
+            { text: 'Gregory Build', link: '/guides/heroes/builds/gregory' },
+            { text: 'Freya Build', link: '/guides/heroes/builds/freya' },
+            { text: 'Wu Ming Build', link: '/guides/heroes/builds/wu-ming' },
           ]
         }
       ],
@@ -59,6 +66,7 @@ export default defineConfig({
             { text: 'Gear & Equipment Guide', link: '/guides/combat/gear' },
             { text: 'Gems & Charms', link: '/guides/combat/gems' },
             { text: 'Formation Guide', link: '/guides/combat/formations' },
+            { text: 'Exclusive Weapons Guide', link: '/guides/combat/exclusive-weapons' },
           ]
         }
       ],
@@ -71,6 +79,7 @@ export default defineConfig({
             { text: 'Crazy Joe', link: '/guides/alliance/crazy-joe' },
             { text: 'Sunfire Castle', link: '/guides/alliance/sunfire-castle' },
             { text: 'Alliance Leadership', link: '/guides/alliance/leadership' },
+            { text: 'Alliance Technology', link: '/guides/alliance/alliance-tech' },
           ]
         }
       ],
@@ -80,6 +89,7 @@ export default defineConfig({
           items: [
             { text: 'Event Calendar', link: '/guides/events/' },
             { text: 'Arms Race Guide', link: '/guides/events/arms-race' },
+            { text: 'Arms Race Daily (7 Days)', link: '/guides/events/arms-race-daily' },
             { text: 'King of Icefield', link: '/guides/events/king-of-icefield' },
             { text: 'Season Events', link: '/guides/events/season' },
           ]
@@ -93,6 +103,16 @@ export default defineConfig({
             { text: 'HQ Rush (1-30 Fast Path)', link: '/guides/beginners/hq-rush' },
             { text: 'Gem Spending Guide', link: '/guides/beginners/gem-spending' },
             { text: 'Common Mistakes', link: '/guides/beginners/mistakes' },
+          ]
+        },
+        {
+          text: '📦 Resource Farming',
+          items: [
+            { text: 'How to Farm Gems', link: '/guides/resources/gems-farming' },
+            { text: 'How to Farm Speedups', link: '/guides/resources/speedups-farming' },
+            { text: 'How to Farm Hero Shards', link: '/guides/resources/hero-shards-farming' },
+            { text: 'VIP Level Guide', link: '/guides/resources/vip-guide' },
+            { text: 'Pets Guide', link: '/guides/resources/pets' },
           ]
         }
       ],
