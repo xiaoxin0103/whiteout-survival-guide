@@ -34,7 +34,8 @@ export default defineConfig({
       { text: 'Combat', link: '/guides/combat/' },
       { text: 'Alliance', link: '/guides/alliance/' },
       { text: 'Events', link: '/guides/events/' },
-      { text: 'Beginners', link: '/guides/beginners/' }
+      { text: 'Beginners', link: '/guides/beginners/' },
+      { text: 'Updates', link: '/guides/updates/' }
     ],
 
     sidebar: {
@@ -92,6 +93,14 @@ export default defineConfig({
             { text: 'HQ Rush (1-30 Fast Path)', link: '/guides/beginners/hq-rush' },
             { text: 'Gem Spending Guide', link: '/guides/beginners/gem-spending' },
             { text: 'Common Mistakes', link: '/guides/beginners/mistakes' },
+          ]
+        }
+      ],
+      '/guides/updates/': [
+        {
+          text: '🆕 Updates & News',
+          items: [
+            { text: 'Version Updates', link: '/guides/updates/' },
           ]
         }
       ]

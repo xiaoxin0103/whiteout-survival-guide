@@ -501,6 +501,128 @@ html.dark .stat-card .stat-value { color: var(--vp-c-brand-light); }
 }
 
 /* ============================================
+   SOCIAL SHARE BUTTONS
+   ============================================ */
+.share-section {
+  margin: 32px 0 16px;
+  padding: 20px 0;
+  border-top: 1px solid rgba(0,180,216,0.12);
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+.share-label {
+  font-size: 0.85em;
+  font-weight: 700;
+  color: #888;
+  margin-right: 4px;
+}
+.share-btn {
+  padding: 7px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,180,216,0.2);
+  background: rgba(0,180,216,0.04);
+  font-size: 0.82em;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  color: inherit;
+}
+.share-btn:hover {
+  background: rgba(0,180,216,0.12);
+  border-color: var(--vp-c-brand);
+}
+.share-btn.share-x:hover { background: rgba(0,0,0,0.05); border-color: #000; }
+.share-btn.share-reddit:hover { background: rgba(255,69,0,0.08); border-color: #ff4500; }
+.share-btn.share-fb:hover { background: rgba(24,119,242,0.08); border-color: #1877f2; }
+.share-btn.share-discord:hover { background: rgba(88,101,242,0.08); border-color: #5865f2; }
+
+/* ============================================
+   EMAIL SUBSCRIBE
+   ============================================ */
+.subscribe-section {
+  margin: 24px 0;
+  padding: 20px 24px;
+  border-radius: 14px;
+  background: linear-gradient(135deg, rgba(0,180,216,0.06), rgba(2,62,138,0.04));
+  border: 1px solid rgba(0,180,216,0.15);
+}
+.subscribe-content {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  flex-wrap: wrap;
+}
+.subscribe-icon {
+  font-size: 2em;
+  flex-shrink: 0;
+}
+.subscribe-text {
+  flex: 1;
+  min-width: 180px;
+}
+.subscribe-text strong {
+  display: block;
+  font-size: 1em;
+}
+.subscribe-text span {
+  font-size: 0.85em;
+  color: #888;
+}
+.subscribe-form {
+  display: flex;
+  gap: 8px;
+  flex-shrink: 0;
+}
+.subscribe-form input {
+  padding: 8px 14px;
+  border-radius: 8px;
+  border: 1px solid rgba(0,180,216,0.25);
+  background: rgba(255,255,255,0.8);
+  font-size: 0.9em;
+  min-width: 180px;
+}
+.subscribe-form button {
+  padding: 8px 18px;
+  border-radius: 8px;
+  border: none;
+  background: linear-gradient(135deg, var(--vp-c-brand), var(--vp-c-brand-dark));
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 0.9em;
+  white-space: nowrap;
+}
+.subscribe-form button:hover {
+  background: linear-gradient(135deg, var(--vp-c-brand-dark), var(--vp-c-brand-darker));
+}
+
+/* ============================================
+   FAQ SCHEMA STYLING
+   ============================================ */
+.faq-section {
+  margin: 24px 0;
+}
+.faq-item {
+  margin: 12px 0;
+  padding: 16px 20px;
+  border-radius: 10px;
+  border: 1px solid rgba(0,180,216,0.12);
+  background: rgba(0,180,216,0.03);
+}
+.faq-item .faq-q {
+  font-weight: 700;
+  font-size: 1.05em;
+  cursor: pointer;
+}
+.faq-item .faq-a {
+  margin-top: 8px;
+  color: #555;
+  font-size: 0.92em;
+}
+
+/* ============================================
    RESPONSIVE
    ============================================ */
 @media (max-width: 768px) {
