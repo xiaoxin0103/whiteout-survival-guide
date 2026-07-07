@@ -89,6 +89,8 @@ export default defineConfig({
           text: '📅 Events',
           items: [
             { text: 'Event Calendar', link: '/guides/events/' },
+            { text: 'Server vs Server (SvS)', link: '/guides/events/svs' },
+            { text: 'Arena Guide', link: '/guides/events/arena-guide' },
             { text: 'Arms Race Guide', link: '/guides/events/arms-race' },
             { text: 'Arms Race Daily (7 Days)', link: '/guides/events/arms-race-daily' },
             { text: 'King of Icefield', link: '/guides/events/king-of-icefield' },
@@ -104,11 +106,13 @@ export default defineConfig({
             { text: 'HQ Rush (1-30 Fast Path)', link: '/guides/beginners/hq-rush' },
             { text: 'Gem Spending Guide', link: '/guides/beginners/gem-spending' },
             { text: 'Common Mistakes', link: '/guides/beginners/mistakes' },
+            { text: 'Survival Basics (Furnace & Heat)', link: '/guides/beginners/survival-basics' },
           ]
         },
         {
-          text: '📦 Resource Farming',
+          text: '📦 Resources & Spending',
           items: [
+            { text: 'Pack Value Analysis', link: '/guides/resources/pack-value' },
             { text: 'How to Farm Gems', link: '/guides/resources/gems-farming' },
             { text: 'How to Farm Speedups', link: '/guides/resources/speedups-farming' },
             { text: 'How to Farm Hero Shards', link: '/guides/resources/hero-shards-farming' },
