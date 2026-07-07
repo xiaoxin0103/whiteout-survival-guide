@@ -10,7 +10,7 @@
 <div class="hero-grid">
 <div class="hero-card s-plus">
 <div class="hero-card-header">
-<span class="hero-emoji">🛡️</span>
+<img src="/heroes/infantry.svg" alt="Infantry" class="hero-img" width="52" height="52">
 <div>
 <div class="hero-name">Jeronimo</div>
 <div class="hero-meta"><span class="phase-badge phase-late">Gen 1</span> &nbsp; Infantry &nbsp;|&nbsp; 💎 P2W Exclusive</div>
@@ -22,7 +22,7 @@
 
 <div class="hero-card s-plus">
 <div class="hero-card-header">
-<span class="hero-emoji">🏹</span>
+<img src="/heroes/marksman.svg" alt="Marksman" class="hero-img" width="52" height="52">
 <div>
 <div class="hero-name">Blanchette</div>
 <div class="hero-meta"><span class="phase-badge phase-early">Gen 10</span> &nbsp; Marksman &nbsp;|&nbsp; 🆓 Lucky Wheel</div>
@@ -34,7 +34,7 @@
 
 <div class="hero-card s-plus">
 <div class="hero-card-header">
-<span class="hero-emoji">⚔️</span>
+<img src="/heroes/infantry.svg" alt="Infantry" class="hero-img" width="52" height="52">
 <div>
 <div class="hero-name">Gregory</div>
 <div class="hero-meta"><span class="phase-badge phase-early">Gen 10</span> &nbsp; Infantry &nbsp;|&nbsp; 💎 Premium Banner</div>

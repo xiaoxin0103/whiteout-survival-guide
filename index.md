@@ -46,6 +46,8 @@ features:
 <div class="hero-banner">
 <div class="hero-banner-content">
 
+<p align="center"><img src="/logo.svg" alt="Whiteout Survival Guide" width="300" style="margin-bottom:16px"></p>
+
 ## 🔥 50 Million Players. Zero Complete Guides. <span style="color:var(--tier-s-plus)">Until Now.</span>
 
 Whiteout Survival is the **#2 highest-grossing mobile game in the world** ($13.3B in 2025), yet English-speaking players have nowhere to go for reliable, up-to-date strategy. Reddit threads get buried. YouTube videos go outdated. Alliance leaders run wars from memory.

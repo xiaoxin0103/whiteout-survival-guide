@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 200 50">
+  <defs>
+    <linearGradient id="logo-grad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#00b4d8"/>
+      <stop offset="100%" style="stop-color:#023e8a"/>
+    </linearGradient>
+  </defs>
+  <!-- Shield icon -->
+  <rect x="5" y="8" width="34" height="34" rx="6" fill="url(#logo-grad)"/>
+  <text x="22" y="32" text-anchor="middle" font-size="20" fill="#fff">❄</text>
+  <!-- Text -->
+  <text x="50" y="34" font-size="20" font-weight="800" fill="#023e8a" font-family="Arial,sans-serif">Whiteout <tspan fill="#00b4d8">Survival</tspan> Guide</text>
+</svg>
