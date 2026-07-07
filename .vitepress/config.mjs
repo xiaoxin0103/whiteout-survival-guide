@@ -23,6 +23,7 @@ export default defineConfig({
     ['meta', { name: 'twitter:title', content: 'Whiteout Survival Guide — #1 English Wiki & Tier List' }],
     ['meta', { name: 'twitter:description', content: 'Complete hero tier lists, Bear Hunt guides, F2P tips, and alliance war strategy.' }],
     // SEO
+    ['meta', { name: 'msvalidate.01', content: 'CE715C67E8CD71295AC07BA64A189985' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
     ['link', { rel: 'canonical', href: 'https://whiteout-survival-guide.pages.dev' }]
   ],
