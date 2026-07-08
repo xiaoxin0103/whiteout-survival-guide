@@ -2,6 +2,16 @@
 
 > **Crowd control + burst damage + team buffs.** Freya is the complete Lancer package.
 
+<div class="hero-card s-plus">
+<div class="hero-card-header">
+<img src="/heroes/freya.png" alt="Freya" class="hero-img" width="80" height="80">
+<div>
+<div class="hero-name">Freya</div>
+<div class="hero-meta">Gen 10 · Lancer · 💎 Premium Banner</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Overview

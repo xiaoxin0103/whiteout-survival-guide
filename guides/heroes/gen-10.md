@@ -8,7 +8,7 @@
 
 <div class="hero-card s-plus">
 <div class="hero-card-header">
-<span class="hero-emoji">🏹</span>
+<img src="/heroes/blanchette.png" alt="Blanchette" class="hero-img" width="52" height="52">
 <div>
 <div class="hero-name">Blanchette</div>
 <div class="hero-meta">Gen 10 · Marksman · 🆓 Lucky Wheel</div>
@@ -51,6 +51,14 @@ Blanchette is the best Marksman in the game, period. She replaces Bradley (Gen 7
 
 <div class="hero-card s-plus">
 
+<div class="hero-card-header">
+<img src="/heroes/gregory.png" alt="Gregory" class="hero-img" width="52" height="52">
+<div>
+<div class="hero-name">Gregory</div>
+<div class="hero-meta">Gen 10 · Infantry · 💎 Premium Banner</div>
+</div>
+</div>
+
 | Stat | Detail |
 |------|--------|
 | **Best Mode** | Arena, PvP |
@@ -76,6 +84,14 @@ Gregory is the best defensive infantry in the game. He stuns enemies, sustains h
 ## 🔱 Freya (Lancer) — <span class="tier-badge tier-s-plus">S+</span>
 
 <div class="hero-card s-plus">
+
+<div class="hero-card-header">
+<img src="/heroes/freya.png" alt="Freya" class="hero-img" width="52" height="52">
+<div>
+<div class="hero-name">Freya</div>
+<div class="hero-meta">Gen 10 · Lancer · 💎 Premium Banner</div>
+</div>
+</div>
 
 | Stat | Detail |
 |------|--------|

@@ -2,6 +2,16 @@
 
 > **F2P-accessible. Bear Hunt monster. PvP carry.** This is the hero you should be saving 160k gems for.
 
+<div class="hero-card s-plus">
+<div class="hero-card-header">
+<img src="/heroes/blanchette.png" alt="Blanchette" class="hero-img" width="80" height="80">
+<div>
+<div class="hero-name">Blanchette</div>
+<div class="hero-meta">Gen 10 · Marksman · 🆓 Lucky Wheel</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Overview

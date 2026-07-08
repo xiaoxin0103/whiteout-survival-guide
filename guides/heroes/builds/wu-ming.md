@@ -2,6 +2,16 @@
 
 > **Invulnerability. Best frontline pre-Gen 10.** If you can't afford Gregory, Wu Ming is your man.
 
+<div class="hero-card s-plus">
+<div class="hero-card-header">
+<img src="/heroes/wu-ming.png" alt="Wu Ming" class="hero-img" width="80" height="80">
+<div>
+<div class="hero-name">Wu Ming</div>
+<div class="hero-meta">Gen 6 · Infantry · 💎 Premium Banner</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Overview

@@ -57,26 +57,26 @@
 
 | Hero | Gen | Class | How to Get | Why |
 |------|-----|-------|------------|-----|
-| **Blanchette** | 10 | Marksman | Lucky Wheel | Best marksman. Current target. |
-| **Renee** | 6 | Lancer | Lucky Wheel | Best F2P lancer. |
-| **Hector** | 5 | Infantry | Lucky Wheel | Solid tank for mid-game. |
-| **Flint** | 2 | Infantry | Lucky Wheel | Best early F2P infantry. |
+| <img src="/heroes/blanchette.png" alt="Blanchette" class="hero-img" width="28" height="28"> **Blanchette** | 10 | Marksman | Lucky Wheel | Best marksman. Current target. |
+| <img src="/heroes/renee.png" alt="Renee" class="hero-img" width="28" height="28"> **Renee** | 6 | Lancer | Lucky Wheel | Best F2P lancer. |
+| <img src="/heroes/hector.png" alt="Hector" class="hero-img" width="28" height="28"> **Hector** | 5 | Infantry | Lucky Wheel | Solid tank for mid-game. |
+| <img src="/heroes/flint.png" alt="Flint" class="hero-img" width="28" height="28"> **Flint** | 2 | Infantry | Lucky Wheel | Best early F2P infantry. |
 
 ### <span class="tier-badge tier-a">A</span> — Build If Available
 
 | Hero | Gen | How to Get | Notes |
 |------|-----|------------|-------|
-| **Mia** | 3 | Lucky Wheel | Decent early Bear Hunt. Outclassed Gen 7+. |
-| **Gwen** | 5 | Free / Shards | Good single-target marksman. |
-| **Sonya** | 8 | Lucky Wheel | Decent if you skipped Renee. |
+| <img src="/heroes/mia.png" alt="Mia" class="hero-img" width="28" height="28"> **Mia** | 3 | Lucky Wheel | Decent early Bear Hunt. Outclassed Gen 7+. |
+| <img src="/heroes/gwen.png" alt="Gwen" class="hero-img" width="28" height="28"> **Gwen** | 5 | Free / Shards | Good single-target marksman. |
+| <img src="/heroes/sonya.png" alt="Sonya" class="hero-img" width="28" height="28"> **Sonya** | 8 | Lucky Wheel | Decent if you skipped Renee. |
 
 ### <span class="tier-badge tier-b">B</span> — Temporary Use Only
 
 | Hero | Why B |
 |------|-------|
 | Molly | Free starter. Useful for 2-3 weeks. |
-| Zinman | Building speed hero. Zero combat value after Gen 3. |
-| Gina | F2P starter. Replace within 1 week. |
+| <img src="/heroes/zinman.png" alt="Zinman" class="hero-img" width="28" height="28"> Zinman | Building speed hero. Zero combat value after Gen 3. |
+| <img src="/heroes/gina.png" alt="Gina" class="hero-img" width="28" height="28"> Gina | F2P starter. Replace within 1 week. |
 | Bahiti | Same as Gina. |
 
 ---

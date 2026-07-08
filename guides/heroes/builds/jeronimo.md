@@ -2,6 +2,16 @@
 
 > **Is Jeronimo worth it? Yes.** He's the only Gen 1 hero still relevant at Gen 10+. Here's why — and how to build him.
 
+<div class="hero-card s-plus">
+<div class="hero-card-header">
+<img src="/heroes/jeronimo.png" alt="Jeronimo" class="hero-img" width="80" height="80">
+<div>
+<div class="hero-name">Jeronimo</div>
+<div class="hero-meta">Gen 1 · Infantry · 💎 P2W Exclusive</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Why Jeronimo Is Different

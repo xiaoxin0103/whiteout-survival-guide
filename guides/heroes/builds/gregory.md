@@ -2,6 +2,16 @@
 
 > **Stuns. Sustain. Arena dominance.** Gregory is the best defensive infantry in the game. Here's how to make him unkillable.
 
+<div class="hero-card s-plus">
+<div class="hero-card-header">
+<img src="/heroes/gregory.png" alt="Gregory" class="hero-img" width="80" height="80">
+<div>
+<div class="hero-name">Gregory</div>
+<div class="hero-meta">Gen 10 · Infantry · 💎 Premium Banner</div>
+</div>
+</div>
+</div>
+
 ---
 
 ## Overview
