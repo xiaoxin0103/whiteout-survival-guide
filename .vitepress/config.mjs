@@ -95,6 +95,7 @@ export default defineConfig({
             { text: 'Arms Race Daily (7 Days)', link: '/guides/events/arms-race-daily' },
             { text: 'King of Icefield', link: '/guides/events/king-of-icefield' },
             { text: 'Season Events', link: '/guides/events/season' },
+            { text: 'Icefire Warhymn League', link: '/guides/events/icefire-warhymn' },
           ]
         }
       ],
