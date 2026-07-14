@@ -127,6 +127,7 @@ export default defineConfig({
           text: '🆕 Updates & News',
           items: [
             { text: 'Version Updates', link: '/guides/updates/' },
+            { text: '⚡ Stun Is Dead Hero Rework', link: '/guides/updates/stun-is-dead-hero-rework' },
             { text: '🔥 Gen 11-15 Bear Hunt Meta', link: '/guides/updates/gen-11-15-bear-hunt-meta' },
           ]
         }
