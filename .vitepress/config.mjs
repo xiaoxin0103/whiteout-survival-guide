@@ -127,6 +127,7 @@ export default defineConfig({
           text: '🆕 Updates & News',
           items: [
             { text: 'Version Updates', link: '/guides/updates/' },
+            { text: '🐻 Bear Hunt Optimization 2026 (NEW)', link: '/guides/updates/bear-hunt-optimization-2026' },
             { text: '🧬 Gen 9 Heroes + Winter Siege (NEW)', link: '/guides/updates/gen-9-winter-siege-guide' },
             { text: '🧠 Expert Heroes Guide (NEW)', link: '/guides/updates/expert-heroes-guide' },
             { text: '⚡ Stun Is Dead Hero Rework', link: '/guides/updates/stun-is-dead-hero-rework' },
