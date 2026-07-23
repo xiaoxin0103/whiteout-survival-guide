@@ -11,6 +11,7 @@
 | [Gear & Equipment →](/guides/combat/gear) | Legendary vs Mythic gear, upgrade priority, substat rolls |
 | [Gems & Charms →](/guides/combat/gems) | Best gem combinations, charm leveling strategy |
 | [Formation Guide →](/guides/combat/formations) | Arena formations, Bear Hunt ratios, PvP positioning |
+| [Hero Gear Enhancement (v1.32.21) →](/guides/combat/hero-gear-enhancement) | New troop stat boosts from gear, mastery strategy, formation slots |
 
 ---
 

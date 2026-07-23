@@ -68,6 +68,7 @@ export default defineConfig({
             { text: 'Gems & Charms', link: '/guides/combat/gems' },
             { text: 'Formation Guide', link: '/guides/combat/formations' },
             { text: 'Exclusive Weapons Guide', link: '/guides/combat/exclusive-weapons' },
+            { text: 'Hero Gear Enhancement (v1.32.21)', link: '/guides/combat/hero-gear-enhancement' },
           ]
         }
       ],
