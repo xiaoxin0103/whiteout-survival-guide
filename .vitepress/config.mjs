@@ -114,6 +114,7 @@ export default defineConfig({
         {
           text: '📦 Resources & Spending',
           items: [
+            { text: '💰 F2P Master Resource Guide 2026', link: '/guides/resources/f2p-master-guide' },
             { text: 'Pack Value Analysis', link: '/guides/resources/pack-value' },
             { text: 'How to Farm Gems', link: '/guides/resources/gems-farming' },
             { text: 'How to Farm Speedups', link: '/guides/resources/speedups-farming' },
